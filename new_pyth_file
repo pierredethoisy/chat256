@@ -6,3 +6,19 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+uneConnexionBDD = MySQLdb.connect(host   ='192.32.12.10',
+                                   user   ='admin',
+                                   password = "AFsfdvff"
+                                   db     ='uneBase')
+leCurseur       = uneConnexionBDD.cursor()
+unAuteur        = "'Zola'"
+
+
+N1tPIkbF/5eKHUaAhVdq/7C1vyprx4ARrRqhin/efM9aaxBHPRUHBD6Bp0FE5WsFbY7zSWoHU2pb+AStWkFG2g==
+DefaultEndpointsProtocol=https;AccountName=teststorageaps;AccountKey=N1tPIkbF/5eKHUaAhVdq/7C1vyprx4ARrRqhin/efM9aaxBHPRUHBD6Bp0FE5WsFbY7zSWoHU2pb+AStWkFG2g==;EndpointSuffix=core.windows.net
+secret1="N1tPIkbF/5eKHUaAhVdq/7C1vyprx4ARrRqhin/efM9aaxBHPRUHBD6Bp0FE5WsFbY7zSWoHU2pb+AStWkFG2g=="
+secret2="DefaultEndpointsProtocol=https;AccountName=teststorageaps;AccountKey=N1tPIkbF/5eKHUaAhVdq/7C1vyprx4ARrRqhin/efM9aaxBHPRUHBD6Bp0FE5WsFbY7zSWoHU2pb+AStWkFG2g==;EndpointSuffix=core.windows.net"
+No newline at end of file
